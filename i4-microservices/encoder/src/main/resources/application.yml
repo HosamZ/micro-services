@@ -1,0 +1,5 @@
+server:
+  port: 9005
+  
+morse:
+  url: http://localhost:9001/morse
