@@ -3,7 +3,6 @@ package at.nacs.encoder;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
@@ -11,8 +10,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class EncoderApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(EncoderApplication.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(EncoderApplication.class, args);
+  }
 
 }

@@ -17,5 +17,4 @@ public class MorseEndpoint {
     String encode(@RequestBody String letter) {
         return morseEncoder.encode(letter);
     }
-
 }
